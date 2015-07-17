@@ -1,0 +1,61 @@
+.header {
+  color: #BCBBBB;
+  font-size: 11px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  border-bottom-width: 3px;
+  border-bottom-color: #BCBBBB;
+  border-bottom-style: solid;
+  margin-bottom: 20px;
+} 
+
+
+.header pull-right {
+    display: block;
+}
+
+.header pull-right h1 {
+    font-weight: lighter;
+    font-size: 50px;
+    padding-bottom: 10px;
+
+}
+
+.header pull-right h4 {
+	float: right;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 11px;
+
+
+}
+
+.featured-work {
+ background-color: #efefef;
+ border-bottom:1px solid #dbdbdb
+}
+
+.featured-work .container h2 {
+ color: #BCBBBB;
+ font-size: 24px;
+}
+
+.featured-work .container .row {
+	display: inline;
+	max-height: 
+}
+
+.featured-work p {
+ font-size: 15px;
+ margin-bottom: 13px;
+}
+
+.featured-work h3 {
+	color: #747704;
+	text-transform: uppercase;
+	font-size: 26px;
+}
+
+.jumbotron {
+	background-position: center;
+}
