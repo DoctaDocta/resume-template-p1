@@ -1,61 +1,94 @@
-.header {
+.header .container {
   color: #BCBBBB;
-  font-size: 11px;
-  font-weight: lighter;
   text-transform: uppercase;
-  border-bottom-width: 3px;
+  border-bottom-width: 2px;
   border-bottom-color: #BCBBBB;
   border-bottom-style: solid;
-  margin-bottom: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+  width: 800px;
+  min-width: 800px;
+  padding: 0px;
+  display: block;
 } 
 
-
-.header pull-right {
-    display: block;
+.header .col-sm-9 {
+	display: inline-table;
 }
 
-.header pull-right h1 {
-    font-weight: lighter;
-    font-size: 50px;
-    padding-bottom: 10px;
-
-}
-
-.header pull-right h4 {
+.header h4 {
 	float: right;
-    text-transform: uppercase;
-    font-weight: normal;
-    font-size: 11px;
+}
 
+.header h1 {
+	float: right;
+}
+
+.header .container .row {
+    display: inline;
+    font-weight: 100;
+    font-size: 50px;
+    color: #BCBBBB;
+  	text-transform: uppercase;
+	font-size: 11px;
 
 }
 
-.featured-work {
- background-color: #efefef;
- border-bottom:1px solid #dbdbdb
+.header .container .row div
+{
+	float: right;
+	right: 0px;
+}
+
+.header .container .row img
+{
+	float: left;
+	max-width: 150px;
+	max-height: 150px;
+}
+
+
+.mainpicture {
+	height: 500px;
+	width: 700px;
+    display: block;
+    margin-top: 20px; 
+    margin-right: 40px;
+    margin-left: 40px;
+    max-width: 1024px;
+    width: 800px;
+  	min-width: 800px;
+
+}
+
+.featured-work .container {
+ 	background-color: #ffffff;
+ 	border-bottom:1px solid #dbdbdb;
+	margin-top: 10px;
+	margin-right: 40px;
+	margin-left: 40px;
+	padding: 0px;
+	display: block;
+
 }
 
 .featured-work .container h2 {
- color: #BCBBBB;
- font-size: 24px;
+ 	color: #BCBBBB;
+ 	font-size: 24px;
 }
 
-.featured-work .container .row {
-	display: inline;
-	max-height: 
-}
 
-.featured-work p {
- font-size: 15px;
- margin-bottom: 13px;
-}
-
-.featured-work h3 {
+.featured-work .container .row h3 {
 	color: #747704;
 	text-transform: uppercase;
-	font-size: 26px;
+	width: 128px;
+	max-width: 128px;
+	min-width: 128px; 
+	height: 25px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	margin-bottom: 40px;
+
 }
 
-.jumbotron {
-	background-position: center;
-}
