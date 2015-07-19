@@ -1,8 +1,8 @@
 .header .container {
-  color: #BCBBBB;
+  color: #bcbbbb;
   text-transform: uppercase;
   border-bottom-width: 2px;
-  border-bottom-color: #BCBBBB;
+  border-bottom-color: #bcbbbb;
   border-bottom-style: solid;
   margin-right: 40px;
   margin-left: 40px;
@@ -28,7 +28,7 @@
     display: inline;
     font-weight: 100;
     font-size: 50px;
-    color: #BCBBBB;
+    color: #bcbbbb;
   	text-transform: uppercase;
 	font-size: 11px;
 
